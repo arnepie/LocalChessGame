@@ -3,7 +3,7 @@ from _thread import *
 import pickle
 from game import GameState
 
-server = "192.168.0.219"  # Insert Wi-Fi ip address
+server = ""  # Insert Wi-Fi ip address
 port = 5555  # Free port
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
